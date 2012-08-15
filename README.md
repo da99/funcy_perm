@@ -14,19 +14,22 @@ Shell:
 
 CoffeeScript:
 
-    afp = require "arr_func_perm"
+    funcy_perm = require "arr_func_perm"
     
     my_arr = [ 0 , 0 , 0 ]
 
-    my_arr.func_perm ( val, i ) -> 
+    funcy_perm(amy_arr).perm ( val, i ) -> 
       val + 1
 
     // returns
-    [ [ 0, 0, 0 ],
+    [ 
+      [ 0, 0, 0 ],
       [ 0, 0, 1 ],
-      [ 0, 1, 1 ], 
-      [ 1, 1, 1 ], 
-      [ 1, 1, 0 ], 
-      [ 1, 0, 0 ],
       [ 0, 1, 0 ]
+      [ 0, 1, 1 ], 
+      
+      [ 1, 1, 1 ],
+      [ 1, 1, 0 ], 
+      [ 1, 0, 1 ], 
+      [ 1, 0, 0 ],
     ]

@@ -1,9 +1,10 @@
 assert = require "assert"
-afp = require "arr_func_perm"
+funcy = require "arr_func_perm"
 
 sort = (arr) ->
   arr.sort (a, b) ->
     a.join(',') > b.join(',')
+    
 describe "arr_func_perm", () ->
 
   describe ".func_perm", () ->
@@ -12,7 +13,7 @@ describe "arr_func_perm", () ->
 
       my_arr = [ 0 , 0 , 0 ]
 
-      results = my_arr.func_perm ( val, i ) -> 
+      results = funcy(my_arr).perm ( val, i ) -> 
         val + 1
 
       target = [ 

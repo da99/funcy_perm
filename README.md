@@ -18,7 +18,7 @@ CoffeeScript:
     
     my_arr = [ 0 , 0 , 0 ]
 
-    funcy_perm(amy_arr).perm ( val, i ) -> 
+    funcy_perm(my_arr).perm ( val, i ) -> 
       val + 1
 
     // returns

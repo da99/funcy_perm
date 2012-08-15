@@ -10,7 +10,7 @@ table = (n) ->
   ( num_to_arr(v, n) for v in range)
   
 
-class Arr_Func_Perm
+class Funcy_Perm
   
   constructor: (arr) ->
     @arr = arr
@@ -30,4 +30,4 @@ class Arr_Func_Perm
     final
 
 module.exports = (arr) ->
-  new Arr_Func_Perm(arr)
+  new Funcy_Perm(arr)

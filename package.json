@@ -1,8 +1,8 @@
 {
-  "name": "arr_func_perm",
+  "name": "funcy_perm",
   "version": "0.1.0",
   "description": "Create combinations by applying a function to all possible combinations of an array.\"",
-  "main": "lib/arr_func_perm.js",
+  "main": "lib/funcy_perm.js",
   "directories": {
     "test": "test"
   },
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/da99/arr_func_perm"
+    "url": "https://github.com/da99/funcy_perm"
   },
   "keywords": [
     "array",

@@ -1,5 +1,5 @@
 
-arr\_func\_perm
+funcy\_perm
 ==============
 
 Take an array, apply a function to all possible combinations.
@@ -10,11 +10,11 @@ Install & Use
 
 Shell:
 
-    npm install arr_func_perm
+    npm install funcy_perm
 
 CoffeeScript:
 
-    funcy_perm = require "arr_func_perm"
+    funcy_perm = require "funcy_perm"
     
     my_arr = [ 0 , 0 , 0 ]
 

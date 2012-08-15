@@ -1,13 +1,13 @@
 assert = require "assert"
-funcy = require "arr_func_perm"
+funcy = require "funcy_perm"
 
 sort = (arr) ->
   arr.sort (a, b) ->
     a.join(',') > b.join(',')
     
-describe "arr_func_perm", () ->
+describe "funcy_perm", () ->
 
-  describe ".func_perm", () ->
+  describe ".perm", () ->
 
     it "returns all possible combinations of applying a function", () ->
 

@@ -1,7 +1,7 @@
 {
   "name": "funcy_perm",
   "version": "0.1.0",
-  "description": "Create combinations by applying a function to all possible combinations of an array.\"",
+  "description": "Create combinations by applying a function to all possible combinations of an array.",
   "main": "lib/funcy_perm.js",
   "directories": {
     "test": "test"

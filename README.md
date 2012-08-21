@@ -33,3 +33,13 @@ CoffeeScript:
       [ 1, 1, 0 ], 
       [ 1, 1, 1 ]
     ]
+
+Note
+=====
+
+An empty array returns, an array with an empty array. Example:
+
+    funcy_perm([]).perm some_func
+
+    // returns 
+    [ [] ]

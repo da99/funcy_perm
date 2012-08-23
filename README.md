@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/da99/funcy_perm.png)](http://travis-ci.org/da99/funcy_perm)
 
 funcy\_perm
 ==============
